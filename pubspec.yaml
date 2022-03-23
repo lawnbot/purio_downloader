@@ -1,5 +1,5 @@
 name: purio_downloader
-description: Cross platform file downloader for Android, iOS und Web. 
+description: Cross platform file downloader in pure dart for Android, iOS und Web. 
 version: 0.0.3
 homepage: www.github.com
 
