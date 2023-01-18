@@ -1,12 +1,10 @@
 import 'dart:async';
-import 'dart:convert';
 // In order to *not* need this ignore, consider extracting the "web" version
 // of your plugin as a separate package, instead of inlining it in the same
 // package as the core of your plugin.
 // ignore: avoid_web_libraries_in_flutter
 //import 'dart:html' as html show window;
 import 'dart:html' as html;
-import 'dart:html';
 import 'package:http/http.dart' as http;
 import 'package:flutter/services.dart';
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';

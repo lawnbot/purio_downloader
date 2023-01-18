@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'dart:io';
 import 'dart:isolate';
-import 'dart:typed_data';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
@@ -168,7 +167,7 @@ void isolatedDownload(IsolatedDownloadParameters parameters) async {
 
       // Save the file
       //File file = new File('$dir/$parameters.filename');
-      File file = File(dir + '/' + parameters.fileName);
+      File file = File('$dir/${parameters.fileName}');
       final Uint8List bytes = Uint8List(response.contentLength);
       int offset = 0;
       for (List<int> chunk in chunks) {

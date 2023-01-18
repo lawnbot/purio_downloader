@@ -7,7 +7,7 @@ class PurioDownloader {
   Stream<DownloadStatus> get streamedDownloadStatus => controller.stream;
 
   static Future<String?> get platformVersion async {
-    Future.value('');
+    return Future.value('');
   }
 
   static Future<String> get directory async {
